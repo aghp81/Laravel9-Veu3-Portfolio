@@ -6,6 +6,9 @@ import homeAdminIndex from "../components/admin/home/index.vue"
 // pages
 import homePageIndex from "../components/pages/home/index.vue"
 
+// login
+import login from "../components/auth/login.vue"
+
 import notFound from "../components/notFound.vue"
 
 const routes = [
@@ -19,6 +22,12 @@ const routes = [
     {
         path: "/",
         component: homePageIndex
+    },
+
+    // login
+    {
+        path: "/login",
+        component: login,
     },
 
     //notFound
